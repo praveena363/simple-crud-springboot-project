@@ -14,7 +14,7 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
-    @GetMapping(path = "/hello")
+    @GetMapping(path = "/hellorequest")
     public String getMessage() {
         return "Hello boot";
     }
