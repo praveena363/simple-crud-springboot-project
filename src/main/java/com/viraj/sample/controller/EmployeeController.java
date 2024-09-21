@@ -16,7 +16,7 @@ public class EmployeeController {
 
     @GetMapping(path = "/hellorequest")
     public String getMessage() {
-        return "Hello boot";
+        return "Hello boot program";
     }
 
     @PostMapping("/save")
